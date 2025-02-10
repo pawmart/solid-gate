@@ -1,0 +1,13 @@
+version: '3'
+networks:
+  solid-gate_network_compose:
+    driver: bridge 
+services:
+  solid-gate:
+    container_name: solid-gate
+    build: .
+    restart: unless-stopped
+    networks:
+      solid-gate_network_compose:
+    ports:
+    - "8080:8080"
