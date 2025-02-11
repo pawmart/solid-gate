@@ -596,7 +596,7 @@ body{
 	background-repeat:no-repeat;
 }
 .slider .single-slider .text{
-	margin-top:120px;
+	margin-top: 80px;
 }
 .slider.index2 .single-slider .text{
 	margin-top:150px;
@@ -1010,7 +1010,7 @@ body{
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('img/video-bg.jpg');
+	background-image:url('img/video-bg.webp');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -4170,3 +4170,18 @@ body{
 /*=========================
 	End Footer CSS
 ===========================*/
+
+
+.slider-text-bg {
+	background: rgba(250, 250, 250, .7);
+	padding: 25px;
+
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	border: none;
+	border-radius: 0;
+	border-radius:4px;
+}
