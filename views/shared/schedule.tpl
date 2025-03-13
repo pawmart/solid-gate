@@ -12,10 +12,8 @@
                                 <i class="fa fa-ambulance"></i>
                             </div>
                             <div class="single-content">
-                                <span>Lorem Amet</span>
-                                <h4>Case Study</h4>
-                                <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                <h4>Quality Products & Services</h4>
+                                <p>A good company provides high-quality products and services that meet or exceed customer expectations.</p>
                             </div>
                         </div>
                     </div>
@@ -28,10 +26,8 @@
                                 <i class="icofont-prescription"></i>
                             </div>
                             <div class="single-content">
-                                <span>Fusce Porttitor</span>
-                                <h4>Timetable</h4>
-                                <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-                                <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                <h4>Excellent Customer Service</h4>
+                                <p>Strong communication, responsiveness, and a commitment to customer satisfaction set a company apart..</p>
                             </div>
                         </div>
                     </div>
@@ -44,14 +40,8 @@
                                 <i class="icofont-ui-clock"></i>
                             </div>
                             <div class="single-content">
-                                <span>Donec luctus</span>
-                                <h4>Opening Hours</h4>
-                                <ul class="time-sidual">
-                                    <li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
-                                    <li class="day">Saturday <span>9.00-18.30</span></li>
-                                    <li class="day">Monday - Thusday <span>9.00-15.00</span></li>
-                                </ul>
-                                <a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+                                <h4>Trust & Reliability</h4>
+                                <p>A reputable company is transparent, delivers on promises, and builds long-term relationships with customers.</p>
                             </div>
                         </div>
                     </div>

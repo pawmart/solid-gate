@@ -1,15 +1,25 @@
 package controllers
 
 import (
-	beego "github.com/beego/beego/v2/server/web"
+	"github.com/beego/beego/v2/server/web"
 )
 
 type MainController struct {
-	beego.Controller
+	web.Controller
 }
 
-func (c *MainController) Get() {
-	c.Data["Website"] = "beego.vip"
-	c.Data["Email"] = "astaxie@gmail.com"
+func (c *MainController) Prepare() {
+	//lang := beego.AppConfig.DefaultString("language", "en-US")
+	// Store the language in the Data map for the template
+	c.Data["lang"] = "en-US"
+	c.Data["Website"] = "solid-state.eu"
+	c.Data["Email"] = "info@solid-state.eu"
+}
+
+func (c *MainController) Index() {
 	c.TplName = "index.tpl"
+}
+
+func (c *MainController) About() {
+	c.TplName = "about.tpl"
 }

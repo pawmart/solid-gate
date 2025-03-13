@@ -9,7 +9,7 @@
                     <div class="col-lg-7">
                         <div class="text slider-text-bg">
                             <h1>We Provide <span>Windows & Doors</span> Services That You Can <span>Trust!</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
+                            <p>With a customer-first approach, transparent pricing, and a dedication to excellence, you can trust us to make your home safer, more comfortable, and more beautiful. </p>
                             <div class="button">
                                 <a href="#" class="btn">Get a Quote</a>
                                 <a href="#" class="btn primary">Learn More</a>
@@ -27,7 +27,7 @@
                     <div class="col-lg-7">
                         <div class="text slider-text-bg">
                             <h1>Premium Quality: <span>Services</span> You can rely on!</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
+                            <p>Our products are crafted from the finest materials, ensuring superior performance, enhanced security, and long-lasting beauty for your home. </p>
                             <div class="button">
                                 <a href="#" class="btn">Get a Quote</a>
                                 <a href="#" class="btn primary">About Us</a>

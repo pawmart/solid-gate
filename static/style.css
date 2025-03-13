@@ -693,7 +693,7 @@ body{
 	background: #fff;
 	margin: 0;
 	padding: 0;
-	height: 230px;
+	/*height: 230px;*/
 }
 .schedule .schedule-inner {
 	position: relative;
@@ -1007,10 +1007,14 @@ body{
 .why-choose{
 	background:#fff;
 }
+
+section.why-choose {
+	padding: 0 0 100px 0;
+}
 .why-choose .choose-right{
 	height:100%;
 	width:100%;
-	background-image:url('img/video-bg.webp');
+	/*background-image:url('img/video-bg.webp');*/
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
