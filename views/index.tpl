@@ -61,16 +61,17 @@
 </div>
 <!-- End Preloader -->
 
-{{template "shared/header.tpl"}}
-
-{{template "shared/slider.tpl"}}
-{{template "shared/schedule.tpl"}}
-
-{{template "shared/stats.tpl"}}
-
-{{template "shared/footer.tpl"}}
 
 
+<div class="content">
+  {{template "shared/header.tpl"}}
+
+  {{template "shared/slider.tpl"}}
+  {{template "shared/schedule.tpl"}}
+
+
+  {{template "shared/footer.tpl"}}
+</div>
 
 <!-- jquery Min JS -->
 <script src="static/js/jquery.min.js"></script>

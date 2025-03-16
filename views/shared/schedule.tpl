@@ -9,7 +9,7 @@
                     <div class="single-schedule first">
                         <div class="inner">
                             <div class="icon">
-                                <i class="fa fa-ambulance"></i>
+                                <i class="fa fa-thumbs-o-up"></i>
                             </div>
                             <div class="single-content">
                                 <h4>Quality Products & Services</h4>
