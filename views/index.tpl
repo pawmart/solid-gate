@@ -69,7 +69,7 @@
   {{template "shared/slider.tpl"}}
   {{template "shared/schedule.tpl"}}
 
-
+  {{template "shared/stats.tpl"}}
   {{template "shared/footer.tpl"}}
 </div>
 

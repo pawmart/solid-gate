@@ -21,7 +21,7 @@
 <div class="lightbox">
     <div class="lightbox-content">
         <button class="lightbox-close">×</button>
-        <img class="lightbox-image" src="" alt="Powiększone zdjęcie" />
+        <img class="lightbox-image" src=""/>
     </div>
 </div>
 
