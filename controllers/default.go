@@ -16,6 +16,7 @@ func (c *MainController) Prepare() {
 	c.Data["lang"] = "en-US"
 	c.Data["Website"] = "solid-state.eu"
 	c.Data["Email"] = "info@solid-state.eu"
+	c.Layout = "layout.tpl"
 }
 
 func (c *MainController) Index() {
