@@ -11,9 +11,27 @@ type MainController struct {
 }
 
 func (c *MainController) Prepare() {
-	//lang := beego.AppConfig.DefaultString("language", "en-US")
+	host := c.Ctx.Request.Host
+
+	langMap := map[string]string{
+		"es": "es-ES",
+		"fr": "fr-FR",
+		"pl": "pl-PL",
+	}
+
+	// Default language
+	lang := "en-US"
+
+	// Extract subdomain if present
+	if parts := strings.SplitN(host, ".", 2); len(parts) > 1 {
+		subdomain := parts[0]
+		if mappedLang, exists := langMap[subdomain]; exists {
+			lang = mappedLang
+		}
+	}
+
 	// Store the language in the Data map for the template
-	c.Data["lang"] = "en-US"
+	c.Data["lang"] = lang
 	c.Data["Website"] = "solid-state.eu"
 	c.Data["Email"] = "info@solid-state.eu"
 	c.Layout = "layout.tpl"
@@ -64,4 +82,8 @@ func (c *MainController) Gallery() {
 
 	c.Data["GalleryItems"] = galleryItems
 	c.TplName = "gallery.tpl"
+}
+
+func (c *MainController) Faq() {
+	c.TplName = "faq.tpl"
 }
