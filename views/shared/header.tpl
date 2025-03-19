@@ -124,10 +124,10 @@
 <!-- Language switcher script -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const languageSwitcher = document.querySelector('.language-switcher');
-        const currentLanguage = document.querySelector('.current-language');
-        const languageDropdown = document.querySelector('.language-dropdown');
-        const languageOptions = document.querySelectorAll('.language-dropdown li');
+        var languageSwitcher = document.querySelector('.language-switcher');
+        var currentLanguage = document.querySelector('.current-language');
+        var languageDropdown = document.querySelector('.language-dropdown');
+        var languageOptions = document.querySelectorAll('.language-dropdown li');
 
         if (currentLanguage) {
             currentLanguage.addEventListener('click', function(e) {
@@ -148,11 +148,11 @@
             });
         }
 
-        languageOptions.forEach(option => {
-            option.addEventListener('click', function() {
-                const lang = this.getAttribute('data-lang');
-                const flagSrc = this.querySelector('img').src;
-                const langText = lang.toUpperCase();
+        for (var i = 0; i < languageOptions.length; i++) {
+            languageOptions[i].addEventListener('click', function() {
+                var lang = this.getAttribute('data-lang');
+                var flagSrc = this.querySelector('img').src;
+                var langText = lang.toUpperCase();
 
                 document.querySelector('.current-language img').src = flagSrc;
                 document.querySelector('.current-language span').textContent = langText;
@@ -161,37 +161,51 @@
 
                 redirectToLanguage(lang);
             });
-        });
+        }
 
         function getCurrentLanguage() {
-            const host = window.location.host;
-            const match = host.match(/^([a-z]{2})\./);
-            return match ? match[1] : 'en';
+            var host = window.location.host;
+            var regex = /^([a-z]{2})\./;
+            var match = regex.exec(host);
+
+            if (match) {
+                return match[1];
+            } else {
+                return 'en';
+            }
         }
 
         function redirectToLanguage(lang) {
-            const protocol = window.location.protocol;
-            const pathname = window.location.pathname;
-            const host = window.location.host;
+            var protocol = window.location.protocol;
+            var pathname = window.location.pathname;
+            var host = window.location.host;
+            var regex = /^[a-z]{2}\./;
+            var baseDomain = host.replace(regex, '');
 
-            const baseDomain = host.replace(/^[a-z]{2}\./, '');
-
-            let newHost;
+            var newHost;
             if (lang === 'en') {
                 newHost = baseDomain;
             } else {
-                newHost = `${lang}.${baseDomain}`;
+                newHost = lang + '.' + baseDomain;
             }
 
-            window.location.href = `${protocol}//${newHost}${pathname}`;
+            window.location.href = protocol + '//' + newHost + pathname;
         }
 
         function setInitialLanguage() {
-            const currentLang = getCurrentLanguage();
-            const langOption = document.querySelector(`.language-dropdown li[data-lang="${currentLang}"]`);
+            var currentLang = getCurrentLanguage();
+            var langElements = document.querySelectorAll('.language-dropdown li');
+            var langOption = null;
+
+            for (var i = 0; i < langElements.length; i++) {
+                if (langElements[i].getAttribute('data-lang') === currentLang) {
+                    langOption = langElements[i];
+                    break;
+                }
+            }
 
             if (langOption) {
-                const flagSrc = langOption.querySelector('img').src;
+                var flagSrc = langOption.querySelector('img').src;
                 document.querySelector('.current-language img').src = flagSrc;
                 document.querySelector('.current-language span').textContent = currentLang.toUpperCase();
             }
