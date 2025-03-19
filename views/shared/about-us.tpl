@@ -1,11 +1,16 @@
 <div class="about-us-container">
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-content">
-            <h1 class="hero-title">Quality Craftsmanship in Every Detail</h1>
-            <p class="hero-description">
-                As a manufacturer of windows and doors, we understand that our products play a crucial role in the safety, comfort, and aesthetics of every home. That is why we make quality our top priority.
-            </p>
+    <!-- Aboout Top Section -->
+    <section class="about-top-section">
+        <div class="about-top-content">
+            <div class="about-top-text">
+                <h1 class="about-top-title">Quality Craftsmanship in Every Detail</h1>
+                <p class="about-top-description">
+                    As a manufacturer of windows and doors, we understand that our products play a crucial role in the safety, comfort, and aesthetics of every home. That is why we make quality our top priority.
+                </p>
+            </div>
+            <div class="about-top-image">
+                <img src="/static/img/blinds1.webp">
+            </div>
         </div>
     </section>
 
@@ -136,27 +141,10 @@
                 <p class="team-description">
                     Our commitment to excellent customer service means we will closely work with you to find solutions that match your unique functionality, style, and peace of mind.
                 </p>
-
-                <div class="team-values">
-                    <div class="value-item">
-                        <div class="value-icon">🛡️</div>
-                        <h4 class="value-title">Experience</h4>
-                    </div>
-
-                    <div class="value-item">
-                        <div class="value-icon">⭐</div>
-                        <h4 class="value-title">Quality</h4>
-                    </div>
-
-                    <div class="value-item">
-                        <div class="value-icon">🤝</div>
-                        <h4 class="value-title">Service</h4>
-                    </div>
-                </div>
             </div>
 
             <div class="team-image">
-                <img src="/static/img/sliding_door.webp">
+                <img class="team-image" src="/static/img/sliding_door.webp">
             </div>
         </div>
     </section>
