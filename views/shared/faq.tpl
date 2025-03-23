@@ -77,7 +77,7 @@
     <div class="contact-section">
         <h2 class="contact-title">Need more information?</h2>
         <p class="contact-text">Contact our team for any additional questions about our products or services.</p>
-        <a href="/contact" class="submit-button">Contact Us</a>
+        <a href="/contact" class="btn">Contact Us</a>
     </div>
 </div>
 

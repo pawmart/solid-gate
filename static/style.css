@@ -54,7 +54,9 @@ body{
 	font-size:14px;
 	color:#888;
 }
-
+a:visited {
+	color: white;
+}
 .content {
 	min-height: 100vh;
 	flex-direction: column;
@@ -85,12 +87,12 @@ body{
 	right:0;
 }
 .pro-features li.big-title {
-	font-weight: 600;
+	font-weight: 400;
 	color: #0e3466;
 	font-size: 15px;
 }
 .pro-features li.title {
-	font-weight: 600;
+	font-weight: 400;
 	color: #0e3466;
 	font-size: 15px;
 }
@@ -440,7 +442,7 @@ body{
 	background: #fff;
 	width: 220px;
 	position: absolute;
-	left:-20px;
+	left:-21px;
 	top: 100%;
 	z-index: 999;
 	-webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
@@ -454,7 +456,7 @@ body{
 	opacity: 0;
 	visibility: hidden;
 	top: 74px;
-	border-left:3px solid #2889e4;
+	border-left:3px solid #0e3466;
 }
 .header .nav li:hover .dropdown{
 	opacity:1;
@@ -949,7 +951,7 @@ body{
 }
 .fun-facts .single-fun span {
 	color: #fff;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 30px;
 	position: relative;
 	display: block;
@@ -1213,7 +1215,7 @@ body{
 .pf-details .body-text{}
 .pf-details .body-text h3 {
 	font-size: 30px;
-	font-weight: 600;
+	font-weight: 400;
 	color: #333;
 	margin-top: 40px;
 }
@@ -1301,7 +1303,7 @@ body{
 	margin-bottom: 30px;
 }
 .services-details-img h2 {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 28px;
 	margin-bottom: 16px;
 }
@@ -1342,7 +1344,7 @@ body{
 	margin-right: auto;
 }
 .service-details-inner h2 {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 30px;
 	margin-bottom: 15px;
 	border-left: 3px solid #0e3466;
@@ -1811,7 +1813,7 @@ body{
 	padding: 50px;
 }
 .doctor-details-item .doctor-details-contact h3 {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 20px;
 	color: #2C2D3F;
 	margin-bottom: 30px;
@@ -1868,7 +1870,7 @@ body{
 	border-color:transparent;
 }
 .doctor-details-item .doctor-details-work h3 {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 20px;
 	color: #2C2D3F;
 	margin-top: 30px;
@@ -1902,7 +1904,7 @@ body{
 
 }
 .doctor-details-item .doctor-details-biography h3 {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 24px;
 	color: #2f60bd;
 	margin-bottom: 25px;
@@ -1997,7 +1999,7 @@ body{
 }
 .blog .single-news .news-body h2 {
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 400;
 	margin-bottom: 10px;
 	line-height: 24px;
 }
@@ -2047,7 +2049,7 @@ body{
 .main-sidebar .single-widget .title {
 	position: relative;
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: capitalize;
 	margin-bottom: 30px;
 	display: block;
@@ -2243,7 +2245,7 @@ body{
 }
 .news-single .news-title a {
 	color: #252525;
-	font-weight: 600;
+	font-weight: 400;
 }
 .news-single .news-title a:hover {
 	color: #0e3466;
@@ -2818,7 +2820,7 @@ body{
 	position: relative;
 	font-size: 32px;
 	color: #333;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 27px;
 	text-transform: capitalize;
 	margin-bottom: 12px;
@@ -2973,7 +2975,7 @@ body{
 	position: relative;
 	font-size: 32px;
 	color: #333;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 27px;
 	text-transform: capitalize;
 	margin-bottom: 12px;
@@ -3108,7 +3110,7 @@ body{
 =======================*/
 .faq-head h2 {
 	margin-bottom: 35px;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 25px;
 }
 .faq-wrap {
@@ -3200,7 +3202,7 @@ body{
 	position: relative;
 	font-size: 32px;
 	color: #333;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 27px;
 	text-transform: capitalize;
 	margin-bottom: 12px;
@@ -3410,7 +3412,7 @@ body{
 	display: block;
 	font-size: 25px;
 	color: #333;
-	font-weight: 600;
+	font-weight: 400;
 	text-shadow: none;
 }
 .error-page .error-inner p {
@@ -3473,7 +3475,7 @@ body{
 	display: block;
 	font-size: 25px;
 	color: #333;
-	font-weight: 600;
+	font-weight: 400;
 	text-shadow: none;
 	margin-top: 20px;
 }
@@ -3596,7 +3598,7 @@ body{
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 400;
 }
 .doctor-calendar-table table tbody tr td span {
 	display: block;
@@ -3674,7 +3676,7 @@ body{
 	margin-bottom: 0;
 	line-height: 1.3;
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 400;
 }
 .about-content p {
 	margin-top: 10px;
@@ -3844,7 +3846,7 @@ body{
 	margin-bottom: 0;
 	line-height: 1.3;
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 400;
 }
 .our-mission-content p {
 	margin-top: 10px;
@@ -3894,7 +3896,7 @@ body{
 	color: #121521;
 	text-transform: uppercase;
 	margin-bottom: 5px;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 17px;
 }
 .our-mission-content ul li:hover .icon {
@@ -4149,7 +4151,6 @@ body{
 }
 
 .catalog {
-	font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
 	color: #333;
 	line-height: 1.6;
 	background-color: #ffffff;
@@ -4159,7 +4160,7 @@ body{
 }
 
 h1, h2, h3 {
-	font-weight: 600;
+	font-weight: 400;
 	margin-bottom: 0.8em;
 	color: #2c3e50;
 }
@@ -4202,9 +4203,22 @@ section {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 80px;
-	height: 3px;
-	background-color: #3498db;
+	width: 60px;
+	height: 4px;
+	background-color: #4673ab;
+}
+
+
+@media (max-width: 992px) {
+	.section-title::after {
+		bottom: -10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.section-title::after {
+		bottom: -15px;
+	}
 }
 
 .section-description {
@@ -4282,7 +4296,7 @@ section {
 	content: "✓";
 	position: absolute;
 	left: 0;
-	color: #3498db;
+	color: #0e3466;
 	font-weight: bold;
 }
 
@@ -4381,7 +4395,7 @@ section {
 	left: 0;
 	width: 80px;
 	height: 3px;
-	background-color: #3498db;
+	background-color: #0e3466;
 }
 
 .section-description {
@@ -4437,7 +4451,7 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-	border-color: #3498db;
+	border-color: #0e3466;
 	box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
 	outline: none;
 }
@@ -4474,12 +4488,12 @@ textarea:focus {
 }
 
 .checkbox-container:hover input ~ .checkmark {
-	border-color: #3498db;
+	border-color: #0e3466;
 }
 
 .checkbox-container input:checked ~ .checkmark {
-	background-color: #3498db;
-	border-color: #3498db;
+	background-color: #0e3466;
+	border-color: #0e3466;
 }
 
 .checkmark:after {
@@ -4507,13 +4521,13 @@ textarea:focus {
 }
 
 .submit-button {
-	background-color: #3498db;
+	background-color: #0e3466;
 	color: white;
 	border: none;
 	border-radius: 5px;
 	padding: 12px 24px;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 400;
 	cursor: pointer;
 	transition: background-color 0.3s, transform 0.2s;
 }
@@ -4550,19 +4564,19 @@ textarea:focus {
 }
 
 .address-icon {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233498db' viewBox='0 0 24 24'%3E%3Cpath d='M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230e3466' viewBox='0 0 24 24'%3E%3Cpath d='M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z'/%3E%3C/svg%3E");
 }
 
 .phone-icon {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233498db' viewBox='0 0 24 24'%3E%3Cpath d='M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230e3466' viewBox='0 0 24 24'%3E%3Cpath d='M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z'/%3E%3C/svg%3E");
 }
 
 .email-icon {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233498db' viewBox='0 0 24 24'%3E%3Cpath d='M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230e3466' viewBox='0 0 24 24'%3E%3Cpath d='M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z'/%3E%3C/svg%3E");
 }
 
 .hours-icon {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233498db' viewBox='0 0 24 24'%3E%3Cpath d='M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 14h-8v-9h2v7h6v2z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230e3466' viewBox='0 0 24 24'%3E%3Cpath d='M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 14h-8v-9h2v7h6v2z'/%3E%3C/svg%3E");
 }
 
 .contact-text strong {
@@ -4793,7 +4807,7 @@ textarea:focus {
 	transform: translateX(-50%);
 	width: 80px;
 	height: 4px;
-	background-color: #4e9af1;
+	background-color: #4673ab;
 }
 
 .hero-description {
@@ -4815,7 +4829,7 @@ textarea:focus {
 
 .section-title {
 	font-size: 2.5rem;
-	font-weight: 600;
+	font-weight: 400;
 	color: #2d3748;
 	margin-bottom: 15px;
 	position: relative;
@@ -4831,7 +4845,19 @@ textarea:focus {
 	transform: translateX(-50%);
 	width: 60px;
 	height: 4px;
-	background-color: #4e9af1;
+	background-color: #4673ab;
+}
+
+@media (max-width: 992px) {
+	.section-title::after {
+		bottom: -10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.section-title::after {
+		bottom: -15px;
+	}
 }
 
 .about-section-description {
@@ -4868,14 +4894,15 @@ textarea:focus {
 	left: 0;
 	width: 100%;
 	height: 3px;
-	background: linear-gradient(90deg, #4e9af1, #2d5cf6);
+	background: linear-gradient(90deg, #4673ab, #2d5cf6);
 	z-index: 2;
 }
 
 .quality-icon-wrapper {
-	width: 60px;
-	height: 60px;
-	background: linear-gradient(135deg, #4e9af1, #2d5cf6);
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(135deg, #4673ab, #4673ab);
+	/*background: #0e3466;*/
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -4886,8 +4913,8 @@ textarea:focus {
 
 .quality-icon {
 	color: white;
-	font-size: 24px;
-	font-weight: 600;
+	font-size: 20px;
+	font-weight: 200;
 }
 
 .quality-content {
@@ -4897,7 +4924,7 @@ textarea:focus {
 
 .quality-title {
 	font-size: 1.1rem;
-	font-weight: 600;
+	font-weight: 400;
 	margin-bottom: 10px;
 	color: #2d3748;
 }
@@ -4940,7 +4967,7 @@ textarea:focus {
 }
 
 .products-image img {
-	width: 100%;
+	width: 90%;
 	border-radius: 15px;
 	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
@@ -4952,7 +4979,7 @@ textarea:focus {
 
 .products-info h2 {
 	font-size: 2.2rem;
-	font-weight: 600;
+	font-weight: 400;
 	color: #2d3748;
 	margin-bottom: 20px;
 	position: relative;
@@ -4966,7 +4993,7 @@ textarea:focus {
 	left: 0;
 	width: 60px;
 	height: 4px;
-	background-color: #4e9af1;
+	background-color: #4673ab;
 }
 
 .products-info p {
@@ -4988,7 +5015,7 @@ textarea:focus {
 }
 
 .bullet {
-	color: #4e9af1;
+	color: #4673ab;
 	margin-right: 15px;
 	font-size: 24px;
 }
@@ -5038,7 +5065,7 @@ textarea:focus {
 
 .mission-info h2 {
 	font-size: 2.2rem;
-	font-weight: 600;
+	font-weight: 400;
 	color: #2d3748;
 	margin-bottom: 20px;
 	position: relative;
@@ -5052,7 +5079,7 @@ textarea:focus {
 	left: 0;
 	width: 60px;
 	height: 4px;
-	background-color: #4e9af1;
+	background-color: #4673ab;
 }
 
 .mission-info p {
@@ -5073,9 +5100,9 @@ textarea:focus {
 }
 
 .check-icon {
-	width: 30px;
-	height: 30px;
-	background: linear-gradient(135deg, #4e9af1, #2d5cf6);
+	width: 20px;
+	height: 20px;
+	background: linear-gradient(135deg, #4673ab, #2d5cf6);
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -5092,7 +5119,7 @@ textarea:focus {
 }
 
 .mission-image img {
-	width: 100%;
+	width: 90%;
 	border-radius: 15px;
 	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
@@ -5162,12 +5189,12 @@ textarea:focus {
 	border-radius: 50%;
 	background-color: #f6f9fc;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-	color: #4e9af1;
+	color: #4673ab;
 	font-size: 30px;
 }
 
 .value-title {
-	font-weight: 600;
+	font-weight: 400;
 	color: #2d3748;
 	font-size: 1.1rem;
 }
@@ -5284,7 +5311,7 @@ textarea:focus {
 
 .about-top-title {
 	font-size: 2rem;
-	font-weight: 700;
+	font-weight: 600;
 	margin-bottom: 20px;
 	color: #2d3748;
 	position: relative;
@@ -5296,9 +5323,9 @@ textarea:focus {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 80px;
+	width: 100px;
 	height: 4px;
-	background-color: #4e9af1;
+	background: #4673ab;
 }
 
 .about-top-description {
@@ -5666,7 +5693,7 @@ textarea:focus {
 
 .faq-title {
 	font-size: 2.5rem;
-	font-weight: 600;
+	font-weight: 400;
 	color: #2d3748;
 	margin-bottom: 15px;
 	position: relative;
@@ -5681,7 +5708,7 @@ textarea:focus {
 	transform: translateX(-50%);
 	width: 60px;
 	height: 4px;
-	background-color: #4e9af1;
+	background-color: #4673ab;
 }
 
 .faq-description {
@@ -5715,17 +5742,17 @@ textarea:focus {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 1.1rem;
 	color: #2d3748;
-	border-left: 4px solid #4e9af1;
+	border-left: 4px solid #4673ab;
 	position: relative;
 }
 
 .faq-question::after {
 	content: '+';
 	font-size: 1.5rem;
-	color: #4e9af1;
+	color: #4673ab;
 }
 
 .faq-item.active .faq-question::after {
@@ -5756,7 +5783,7 @@ textarea:focus {
 
 .contact-title {
 	font-size: 1.5rem;
-	font-weight: 600;
+	font-weight: 400;
 	margin-bottom: 20px;
 	color: #2d3748;
 }
@@ -5784,4 +5811,57 @@ textarea:focus {
 	.faq-answer {
 		font-size: 0.9rem;
 	}
+}
+
+
+/*=========================
+	Not found
+===========================*/
+
+
+.error-container {
+	max-width: 500px;
+	padding: 100px 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.error-title {
+	font-size: 28px;
+	font-weight: 500;
+	color: #2c3e50;
+	margin-bottom: 20px;
+}
+
+.error-message {
+	font-size: 16px;
+	color: #777;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+
+/*=========================
+	Form success
+===========================*/
+
+
+.success-container {
+	max-width: 400px;
+	padding: 100px 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.success-title {
+	font-size: 28px;
+	font-weight: 500;
+	color: #2c3e50;
+	margin-bottom: 20px;
+}
+
+.success-message {
+	font-size: 16px;
+	color: #777;
+	margin-bottom: 30px;
+	line-height: 1.5;
 }

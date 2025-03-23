@@ -21,6 +21,10 @@ func init() {
 	beego.Router("/contact", &controllers.MainController{}, "get:Contact")
 	beego.Router("/gallery", &controllers.MainController{}, "get:Gallery")
 	beego.Router("/faq", &controllers.MainController{}, "get:Faq")
+	beego.Router("/submit-form", &controllers.MainController{}, "post:SubmitForm")
+	beego.Router("/form-success", &controllers.MainController{}, "get:FormSuccess")
+
+	beego.ErrorController(&controllers.ErrorController{})
 }
 
 // loadLocalization loads supported languages and locale files

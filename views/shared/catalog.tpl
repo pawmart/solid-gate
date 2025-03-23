@@ -10,7 +10,7 @@
             <!-- Product WIN-60 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="WIN-60 Profile">
+                    <img src="/static/img/gallery/windows/1_Awning_window.webp" alt="WIN-60 Profile">
                 </div>
                 <div class="product-content">
                     <h3>WIN-60 Profile</h3>
@@ -26,7 +26,7 @@
             <!-- Product WIN-70 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="WIN-70 Profile">
+                    <img src="/static/img/gallery/windows/2_Pane_RIGHT.webp" alt="WIN-70 Profile">
                 </div>
                 <div class="product-content">
                     <h3>WIN-70 Profile</h3>
@@ -42,7 +42,7 @@
             <!-- Product WIN-80 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="WIN-80 Profile">
+                    <img src="/static/img/gallery/windows/3_OX_Sliding_window.webp" alt="WIN-80 Profile">
                 </div>
                 <div class="product-content">
                     <h3>WIN-80 Profile</h3>
@@ -68,7 +68,7 @@
             <!-- Product Triple 71 mm -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="Triple Glazing 71 mm Profile">
+                    <img src="/static/img/gallery/windows/1_Awning_window.webp" alt="Triple Glazing 71 mm Profile">
                 </div>
                 <div class="product-content">
                     <h3>Triple Glazing 71 mm</h3>
@@ -84,7 +84,7 @@
             <!-- Product Triple 81 mm -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="Triple Glazing 81 mm Profile">
+                    <img src="/static/img/gallery/windows/2_Pane_RIGHT.webp" alt="Triple Glazing 81 mm Profile">
                 </div>
                 <div class="product-content">
                     <h3>Triple Glazing 81 mm</h3>
@@ -110,7 +110,7 @@
             <!-- Product Standard Sliding Doors -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="Standard Sliding Doors">
+                    <img src="/static/img/catalog/sliding1.png" alt="Standard Sliding Doors">
                 </div>
                 <div class="product-content">
                     <h3>Standard Sliding Doors</h3>
@@ -126,7 +126,7 @@
             <!-- Product HST Doors -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="Lift & Slide HST Doors">
+                    <img src="/static/img/catalog/sliding2.png"  alt="Lift & Slide HST Doors">
                 </div>
                 <div class="product-content">
                     <h3>HST Profile Doors</h3>
@@ -152,7 +152,7 @@
             <!-- Product Thermo Diamond Lumina -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/catalog/1_thermo_diamond_lumina.png" alt="Thermo Diamond Lumina Doors">
+                    <img src="/static/img/catalog/door1.png" alt="Thermo Diamond Lumina Doors">
                 </div>
                 <div class="product-content">
                     <h3>Thermo Diamond Lumina</h3>
@@ -168,7 +168,7 @@
             <!-- Product Thermo Hybrid Fortis -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/catalog/2_thermo_hybrid_fortis.png" alt="Thermo Hybrid Fortis Doors">
+                    <img src="/static/img/catalog/door2.png" alt="Thermo Hybrid Fortis Doors">
                 </div>
                 <div class="product-content">
                     <h3>Thermo Hybrid Fortis</h3>
@@ -194,7 +194,7 @@
             <!-- Hinges -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="Hinges and fittings">
+                    <img src="/static/img/catalog/accessories.png" alt="Hinges and fittings">
                 </div>
                 <div class="product-content">
                     <h3>Hinges and Fittings</h3>
@@ -210,7 +210,7 @@
             <!-- Limiters -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="Window limiters">
+                    <img src="/static/img/catalog/accessories.png" alt="Window limiters">
                 </div>
                 <div class="product-content">
                     <h3>Window Limiters</h3>
@@ -226,7 +226,7 @@
             <!-- Gaskets -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/static/img/placeholder.png" alt="Gaskets">
+                    <img src="/static/img/catalog/accessories.png" alt="Gaskets">
                 </div>
                 <div class="product-content">
                     <h3>Gaskets</h3>
