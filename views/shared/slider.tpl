@@ -12,7 +12,7 @@
                             <p>With a customer-first approach, transparent pricing, and a dedication to excellence, you can trust us to make your home safer, more comfortable, and more beautiful. </p>
                             <div class="button">
                                 <a href="/contact" class="btn">Get a Quote</a>
-                                <a href="/catalog" class="btn primary">Learn More</a>
+                                <a href="/catalog" class="btn primary">Browse Catalog</a>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                             <p>Our products are crafted from the finest materials, ensuring superior performance, enhanced security, and long-lasting beauty for your home. </p>
                             <div class="button">
                                 <a href="/contact" class="btn">Get a Quote</a>
-                                <a href="/about" class="btn primary">About Us</a>
+                                <a href="/about" class="btn primary">Browse Catalog</a>
                             </div>
                         </div>
                     </div>

@@ -444,6 +444,25 @@ Preloader Area CSS
 	border-radius: 0;
 	border-radius:4px;
 }
+.btn:visited{
+	color: #fff;
+	padding: 13px 25px;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 500;
+	background: #0e3466;
+	position: relative;
+	box-shadow: none;
+	display: inline-block;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	border: none;
+	border-radius: 0;
+	border-radius:4px;
+}
 .btn:hover{
 	color:#fff;
 }
@@ -479,7 +498,7 @@ Preloader Area CSS
 }
 .section-title h2 {
 	font-size: 32px;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: capitalize;
 	margin-bottom: 24px;
 	position: relative;
@@ -540,7 +559,7 @@ Preloader Area CSS
 .breadcrumbs ul li i {
 	margin: 0px 10px;
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 400;
 	color:#fff;
 }
 .breadcrumbs ul li a {

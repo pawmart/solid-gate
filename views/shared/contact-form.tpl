@@ -17,6 +17,7 @@
                     <input type="email" id="email" name="email" required>
                 </div>
 
+
                 <div class="form-group">
                     <label for="phone">Phone Number</label>
                     <input type="tel" id="phone" name="phone">
@@ -36,7 +37,7 @@
                 </div>
 
                 <div class="form-group text-center">
-                    <button type="submit" class="submit-button">Send Message</button>
+                    <button type="submit" class="btn">Send Message</button>
                 </div>
             </form>
 
@@ -68,7 +69,7 @@
                     <div class="contact-icon address-icon"></div>
                     <div class="contact-text">
                         <strong>Address:</strong>
-                        <p>ul. Zerzeńska 33, 04-787 Warszawa</p>
+                        <p>ul. Zerzeńska 33, 04-787 Warsaw</p>
                     </div>
                 </div>
             </div>
